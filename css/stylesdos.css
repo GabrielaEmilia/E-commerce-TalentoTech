@@ -1,0 +1,262 @@
+.gabriela-regular {
+    font-family: "Gabriela", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/* Variables */
+:root {
+  --primary-color: #41065e;
+   --secondary-color: #d481f5;
+  --bg-color: #d6a9f3;
+  --text-color: #ffffff;
+  --font-size-base: 16px;
+  --gap-small: 10px;
+  --gap-medium: 20px;
+  --gap-large: 30px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: var(--font-size-base);
+  background-color: var(--bg-color);
+  font-family: Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 var(--gap-medium);
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+}
+
+.logo-marca{
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header h2 {
+  font-size: 1.2rem;
+}
+
+nav {
+  display: flex;
+  gap: var(--gap-medium);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: var(--gap-small);
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--primary-color);
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #eed5ff;
+}
+.fondo-imagen {
+    background-image: url(/Imagenes/lila.jpg);
+    background-size: cover; 
+}
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--gap-medium);
+  padding: var(--gap-large);
+}
+
+.producto {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: var(--gap-medium);
+  text-align: center;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.producto a {
+    color: #CA82E3;
+    text-decoration: none;
+    font-weight: bold; 
+  }
+  
+  .producto a:hover {
+    color: #edd2f1;
+    text-decoration: dotted;
+  }
+.tarjeta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--gap-medium);
+  padding: var(--gap-large);
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-small);
+  padding: var(--gap-large);
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-small);
+}
+
+form button {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  padding: var(--gap-small);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  form {
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), 
+    url(/Imagenes/formu.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    border: 2px solid #d6a9f3;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    color: #000; 
+
+
+}
+.marco-imagen {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  form input, 
+  form textarea, 
+  form button {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  form textarea {
+    resize: vertical; 
+  }
+  
+  form button {
+    background-color: #41065e; 
+    color: #fff;;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #d6a9f3; 
+  }
+
+  html, body {
+    height: 100%; 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contenedor {
+    flex: 1; 
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #41065e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
