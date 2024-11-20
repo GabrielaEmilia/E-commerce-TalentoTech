@@ -81,7 +81,7 @@ nav a:hover {
   color: #eed5ff;
 }
 .fondo-imagen {
-  background-image: url(./Imagenes/lila.jpg);
+  background-image: url(/Imagenes/lila.jpg);
   background-size: cover;
   background-position: center;
   background-repeat:repeat;
