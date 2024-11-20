@@ -81,7 +81,7 @@ nav a:hover {
   color: #eed5ff;
 }
 .fondo-imagen {
-  background-image: url(/Imagenes/lila.jpg);
+  background-image: url(/Imagenes/lilaflores.png);
   background-size: cover;
   background-position: center;
   background-repeat:repeat;
@@ -161,7 +161,7 @@ form button:hover {
   
   form {
     background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), 
-    url(/Imagenes/formu.jpg);
+    url(/Imagenes/formu.png);
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
