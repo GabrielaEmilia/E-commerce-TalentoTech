@@ -24,7 +24,7 @@ box-sizing: border-box;
 body {
 font-size: var(--font-size-base);
 background-color: var(--bg-color);
-font-family: Arial, sans-serif;
+font-family: Gabriela, sans-serif;
 margin: 0;
 padding-bottom: 60px;
 display: flex;
@@ -93,7 +93,7 @@ height: 100vh;
 width: 100%;
 }
 .grid-productos {
-display: grid;
+display:flex;
 grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 gap: 20px;
 padding: 20px;
@@ -127,43 +127,43 @@ button:hover {
   background-color: #d481f5;
 }
 #productos {
-  display: flex; /* Activa Flexbox */
-  flex-wrap: wrap; /* Permite que los productos pasen a la siguiente fila si no caben */
-  gap: 10px; /* Espacio entre los productos */
-  justify-content: center; /* Centra los productos horizontalmente */
-  padding: 16px; /* Espacio interno */
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 16px;
 }
 
 .card {
-  flex: 1 1 calc(25% - 32px); /* Ajusta el tamaño de las tarjetas: 25% menos el espacio entre elementos */
-  max-width: calc(25% - 32px); /* Para evitar que se estiren más allá del tamaño esperado */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para hacerlas visualmente atractivas */
-  border: 1px solid #ccc; /* Borde ligero */
-  border-radius: 8px; /* Bordes redondeados */
-  overflow: hidden; /* Asegura que el contenido no se salga */
-  text-align: center; /* Centra el texto */
-  padding: 16px; /* Espacio interno dentro de la tarjeta */
-  background-color: #fff; /* Fondo blanco */
+  flex: 1 1 calc(25% - 32px);
+  max-width: calc(25% - 32px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  padding: 16px;
+  background-color: #fff;
 }
 
 .card img {
-  width: 100%; /* La imagen ocupa todo el ancho del contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
-  margin-bottom: 12px; /* Espacio debajo de la imagen */
+  width: 100%;
+  height: auto;
+  margin-bottom: 12px;
 }
 
 .card h3 {
-  font-size: 1.2rem; /* Tamaño del texto del título */
+  font-size: 1.2rem;
   margin-bottom: 8px;
 }
 
 .card p {
-  font-size: 1rem; /* Tamaño del texto del precio */
+  font-size: 1rem;
   margin-bottom: 12px;
 }
 
 .btn-add {
-  background-color: #6a5acd; /* Color del botón */
+  background-color: #6a5acd;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -173,7 +173,7 @@ button:hover {
 }
 
 .btn-add:hover {
-  background-color: #483d8b; /* Color más oscuro al pasar el mouse */
+  background-color: #483d8b;
 }
 
 .producto {
@@ -366,4 +366,3 @@ body {
   flex: 1 1 calc(33.33% - 32px); 
   max-width: calc(33.33% - 32px);
 }
-

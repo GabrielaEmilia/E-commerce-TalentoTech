@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "nombre": "Shampoo Fidelite Argán",
+    "precio": 4000,
+    "imagen": "./Imagenes/Prod(1).png"
+  },
+  {
+    "id": 2,
+    "nombre": "Shampoo Matizador Nov 1kg",
+    "precio": 9375,
+    "imagen": "./Imagenes/Prod(2).png"
+  },
+  {
+    "id": 3,
+    "nombre": "Tratamiento nutritivo Carlaq",
+    "precio": 9125,
+    "imagen": "./Imagenes/Prod(3).png"
+  },
+  {
+    "id": 4,
+    "nombre": "Baño de crema altamente hidratante",
+    "precio": 9875,
+    "imagen": "./Imagenes/Prod(4).png"
+  },
+  {
+    "id": 5,
+    "nombre": "Polvo decolorante NOV",
+    "precio": 2500,
+    "imagen": "./Imagenes/Prod(5).png"
+  },
+  {
+    "id": 6,
+    "nombre": "Emulsión Nutritiva",
+    "precio": 6850,
+    "imagen": "./Imagenes/Prod(6).png"
+  },
+  {
+    "id": 7,
+    "nombre": "Mascarilla Cabellos tratados pH 3.5",
+    "precio": 9870,
+    "imagen": "./Imagenes/Prod(7).png"
+  },
+  {
+    "id": 8,
+    "nombre": "Matizador blue antianaranjados",
+    "precio": 1470,
+    "imagen": "./Imagenes/Prod(8).png"
+  },
+  {
+    "id": 9,
+    "nombre": "Crema de peinar Karite",
+    "precio": 2780,
+    "imagen": "./Imagenes/Prod(9).png"
+  }
+]
